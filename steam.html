@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://store.steampowered.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1260350_6bglnsgnwag.css">
+    <link rel="stylesheet" href="./css/steam.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/cookie.js"></script>
+    <title>欢迎来到steam</title>
+</head>
+
+<body>
+    <div class="topba">
+        <div class="top">
+            <div class="top1">
+                <a href="">
+                    <img src="./images/1.png" alt="">
+                </a>
+            </div>
+            <div class="top2">
+                <div class="top2a">
+                    <p>商店</p>
+                    <div class="one">
+                        <a href="">精选</a>
+                        <a href="">探索</a>
+                        <a href="">鉴赏家</a>
+                        <a href="">愿望单</a>
+                        <a href="">新闻</a>
+                        <a href="">统计</a>
+                    </div>
+                </div>
+                <div class="top2b">
+                    <p>社区</p>
+                    <div class="two">
+                        <a href="">主页</a>
+                        <a href="">讨论</a>
+                        <a href="">创意工坊</a>
+                        <a href="">市场</a>
+                        <a href="">实况直播</a>
+                    </div>
+                </div>
+                <div>
+                    <p>关于</p>
+                </div>
+                <div>
+                    <p>客服</p>
+                </div>
+            </div>
+            <div class="top3">
+                <ul class="ua">
+                    <li>
+                        <img src="./images/2.png" alt="">
+                    </li>
+                    <li>安装&nbsp;Steam</li>
+                </ul>
+                <ul class="ub">
+                    <li class="ub1">&nbsp;登陆&nbsp;</li>
+                </ul>
+                <ul class="ud">&nbsp;|&nbsp;</ul>
+                <ul class="uc">
+                    <li class="uc1" id="uc1">语言▼</li>
+                    <li class="uc2" id="uc2">
+                        <a class="popup_menu_item tight" href="?l=tchinese"
+                            onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文（繁体中文）</a>
+                        <a class="popup_menu_item tight" href="?l=japanese"
+                            onclick="ChangeLanguage( 'japanese' ); return false;">日本語（日语）</a>
+                        <a class="popup_menu_item tight" href="?l=koreana"
+                            onclick="ChangeLanguage( 'koreana' ); return false;">한국어（韩语）</a>
+                        <a class="popup_menu_item tight" href="?l=thai"
+                            onclick="ChangeLanguage( 'thai' ); return false;">ไทย（泰语）</a>
+                        <a class="popup_menu_item tight" href="?l=bulgarian"
+                            onclick="ChangeLanguage( 'bulgarian' ); return false;">български（保加利亚语）</a>
+                        <a class="popup_menu_item tight" href="?l=czech"
+                            onclick="ChangeLanguage( 'czech' ); return false;">Čeština（捷克语）</a>
+                        <a class="popup_menu_item tight" href="?l=danish"
+                            onclick="ChangeLanguage( 'danish' ); return false;">Dansk（丹麦语）</a>
+                        <a class="popup_menu_item tight" href="?l=german"
+                            onclick="ChangeLanguage( 'german' ); return false;">Deutsch（德语）</a>
+                        <a class="popup_menu_item tight" href="?l=english"
+                            onclick="ChangeLanguage( 'english' ); return false;">English（英语）</a>
+                        <a class="popup_menu_item tight" href="?l=spanish"
+                            onclick="ChangeLanguage( 'spanish' ); return false;">Español-España（西班牙语 - 西班牙）</a>
+                        <a class="popup_menu_item tight" href="?l=latam"
+                            onclick="ChangeLanguage( 'latam' ); return false;">Español -
+                            Latinoamérica（西班牙语-拉丁美洲）</a>
+                        <a class="popup_menu_item tight" href="?l=greek"
+                            onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά（希腊语）</a>
+                        <a class="popup_menu_item tight" href="?l=french"
+                            onclick="ChangeLanguage( 'french' ); return false;">Français（法语）</a>
+                        <a class="popup_menu_item tight" href="?l=italian"
+                            onclick="ChangeLanguage( 'italian' ); return false;">Italiano（意大利语）</a>
+                        <a class="popup_menu_item tight" href="?l=hungarian"
+                            onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar（匈牙利语）</a>
+                        <a class="popup_menu_item tight" href="?l=dutch"
+                            onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands（荷兰语）</a>
+                        <a class="popup_menu_item tight" href="?l=norwegian"
+                            onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk（挪威语）</a>
+                        <a class="popup_menu_item tight" href="?l=polish"
+                            onclick="ChangeLanguage( 'polish' ); return false;">Polski（波兰语）</a>
+                        <a class="popup_menu_item tight" href="?l=portuguese"
+                            onclick="ChangeLanguage( 'portuguese' ); return false;">Português（葡萄牙语）</a>
+                        <a class="popup_menu_item tight" href="?l=brazilian"
+                            onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil（葡萄牙语-巴西）</a>
+                        <a class="popup_menu_item tight" href="?l=romanian"
+                            onclick="ChangeLanguage( 'romanian' ); return false;">Română（罗马尼亚语）</a>
+                        <a class="popup_menu_item tight" href="?l=russian"
+                            onclick="ChangeLanguage( 'russian' ); return false;">Русский（俄语）</a>
+                        <a class="popup_menu_item tight" href="?l=finnish"
+                            onclick="ChangeLanguage( 'finnish' ); return false;">Suomi（芬兰语）</a>
+                        <a class="popup_menu_item tight" href="?l=swedish"
+                            onclick="ChangeLanguage( 'swedish' ); return false;">Svenska（瑞典语）</a>
+                        <a class="popup_menu_item tight" href="?l=turkish"
+                            onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe（土耳其语）</a>
+                        <a class="popup_menu_item tight" href="?l=vietnamese"
+                            onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt（越南语）</a>
+                        <a class="popup_menu_item tight" href="?l=ukrainian"
+                            onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська（乌克兰语）</a>
+                        <a class="popup_menu_item tight" href="http://translation.steampowered.com"
+                            target="_blank">帮助我们翻译 Steam</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="first">
+        <div class="zuo">
+            <p class="pp1">
+                <a href="">
+                    <img src="./images/p1.png" alt="">
+                </a>
+            </p>
+            <ul class="zuo1">
+                <li>
+                    <p class="zuop1">
+                        礼物卡
+                    </p>
+                    <p class="zuop2">
+                        现已在Steam上推出
+                    </p>
+                </li>
+            </ul>
+            <ul class="zuo2">
+                <li class="p1">
+                    推荐
+                </li>
+                <li class="p2">
+                    <span class="s1"></span>
+                    <span class="s2">由好友推荐</span>
+                </li>
+                <li class="p3">
+                    <span class="s1"></span>
+                    <span class="s2">由鉴赏家推荐</span>
+                </li>
+                <li class="p4">
+                    <span class="s1"></span>
+                    <span class="s2">标签</span>
+                </li>
+            </ul>
+            <ul class="zuo3">
+                <li class="p1">
+                    探索队列
+                </li>
+                <li class="p2">
+                    <span class="s1"></span>
+                    <span class="s2">热销产品</span>
+                </li>
+                <li class="p3">
+                    <span class="s1"></span>
+                    <span class="s2">最新更新</span>
+                </li>
+                <li class="p4">
+                    <span class="s1"></span>
+                    <span class="s2">新品</span>
+                </li>
+                <li class="p5">
+                    <span class="s1"></span>
+                    <span class="s2">即将推出</span>
+                </li>
+                <li class="p6">
+                    <span class="s1"></span>
+                    <span class="s2">优惠</span>
+                </li>
+                <li class="p7">
+                    <span class="s1"></span>
+                    <span class="s2">虚拟现实</span>
+                </li>
+                <li class="p8">
+                    <span class="s1"></span>
+                    <span class="s2">支持 Steam 控制器</span>
+                </li>
+            </ul>
+            <ul class="zuo4">
+                <li class="p1">
+                    按类型浏览
+                </li>
+                <li class="p2">
+                    <span class="s1">免费游玩</span>
+                </li>
+                <li class="p3">
+                    <span class="s1">抢先体验</span>
+                </li>
+                <li class="p4">
+                    <span class="s1">休闲</span>
+                </li>
+                <li class="p5">
+                    <span class="s1">体育</span>
+                </li>
+                <li class="p6">
+                    <span class="s1">冒险</span>
+                </li>
+                <li class="p7">
+                    <span class="s1">动作</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">大型多人在线</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">模拟</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">独立</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">竞速</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">策略</span>
+                </li>
+                <li class="p8">
+                    <span class="s1">角色扮演</span>
+                </li>
+            </ul>
+            <ul class="zuo5">
+                <li class="p1" id="zuijin">最近查看</li>
+                <li class="p2" id="xianzai">
+                </li>
+            </ul>
+        </div>
+        <div class="zhong">
+            <div class="dh">
+                <p class="p1">
+                    <span>&nbsp;您的商店&nbsp;</span>
+                    <span>
+                        <img src="./images/5.png" alt="">
+                    </span>
+                </p>
+                <p>
+                    <span>游戏</span>
+                    <span>
+                        <img src="./images/5.png" alt="">
+                    </span>
+                </p>
+                <p>
+                    <span>&nbsp;&nbsp;软件&nbsp;&nbsp;</span>
+                    <span>
+                        <img src="./images/5.png" alt="">
+                    </span>
+                </p>
+                <p>
+                    <span>&nbsp;&nbsp;硬件&nbsp;&nbsp;</span>
+                    <span>
+                        <img src="./images/5.png" alt="">
+                    </span>
+                </p>
+                <p>
+                    <span>&nbsp;&nbsp;&nbsp;新闻&nbsp;&nbsp;&nbsp;</span>
+                </p>
+                <p>
+                    <span>Steam实验室</span>
+                </p>
+
+            </div>
+            <p class="pa">精选和推荐</p>
+            <div class="zhong1">
+                <p class="pb" id="pb">
+                    <i class="iconfont icon-left"></i>
+                </p>
+                <p class="pc" id="pc">
+                    <i class="iconfont icon-jiantou"></i>
+                </p>
+                <div class="lunbo" id="lunbo">
+                </div>
+                <div class="yd" id="yd">
+                </div>
+            </div>
+            <div class="lunbo2">
+                <div class="six">
+                    <h2>
+                        特 别 优 惠
+                        <span>浏览更多</span>
+                    </h2>
+                </div>
+                <div class="tuba">
+                    <div class="lunbo">
+                        <div class="tuba1" style="display: block">
+                            <ul class="baul1">
+                                <li class="bau1a1">
+                                    <a href="">
+                                        <img src="./images/l1.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="baul2">
+                                <li class="bau2a1">
+                                    <a href="">
+                                        <img src="./images/l2.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="baul3">
+                                <li class="bau3a1">
+                                    <a href="">
+                                        <img src="./images/l3.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="bau3a2">
+                                    <a href="">
+                                        <img src="./images/l4.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tuba2">
+                            <ul class="baul1">
+                                <li class="bau1a1">
+                                    <a href="">
+                                        <img src="./images/l5.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="baul3">
+                                <li class="bau3a1">
+                                    <a href="">
+                                        <img src="./images/l6.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="bau3a2">
+                                    <a href="">
+                                        <img src="./images/l7.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="baul3">
+                                <li class="bau3a1">
+                                    <a href="">
+                                        <img src="./images/l8.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="bau3a2">
+                                    <a href="">
+                                        <img src="./images/l9.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tuba3">
+                        <div class="ba3a yd">
+
+                        </div>
+                    </div>
+                    <div class="tuba4">
+                        <p class="tup1 pb">
+                            <i class="iconfont icon-left"></i>
+                        </p>
+                        <p class="tup2 pc">
+                            <i class="iconfont icon-jiantou"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="liulan">
+                <h3>浏 览 STEAM</h3>
+                <div class="lan">
+                    <p style="margin-left: 0">
+                        <a href="">新品</a>
+                    </p>
+                    <p>
+                        <a href="">优惠</a>
+                    </p>
+                    <p>
+                        <a href="">免费游戏</a>
+                    </p>
+                    <p>
+                        <a href="">按用户标签</a>
+                    </p>
+                </div>
+            </div>
+            <div class="jianshang">
+                <h3>为您建议鉴赏家</h3>
+                <div class="jianbao">
+                    <div class="jianbao">
+                        <div class="lunbo3 lunbo">
+                            <div class="jian1" style="display:block">
+                                <img src="./images/j1.png" alt="">
+                            </div>
+                            <div class="jian2">
+                                <img src="./images/j2.png" alt="">
+                            </div>
+                            <div class="jian3">
+                                <img src="./images/j3.png" alt="">
+                            </div>
+                            <div class="jian4">
+                                <img src="./images/j4.png" alt="">
+                            </div>
+                            <div class="jian5">
+                                <img src="./images/j5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jiandian">
+                        <div class="jianjian1 yd" style="margin-left:45%">
+
+                        </div>
+                    </div>
+                    <div class="jianjian2">
+                        <p class="p1 pb">
+                            <i class="iconfont icon-left"></i>
+                        </p>
+                        <p class="p2 pc">
+                            <i class="iconfont icon-jiantou"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="vr">
+                <h3>热 门 VR 游 戏</h3>
+                <div class="davr lunbo">
+                    <div class="vr1a" style="display: block">
+                        <ul>
+                            <li class="vrli" style="margin-left:0;">
+                                <p class="la">
+                                    <img src="./images/v1.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 278</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v2.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 90</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v3.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 112</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v4.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 40</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="vr1a vr1b">
+                        <ul>
+                            <li class="vrli" style="margin-left:0;">
+                                <p class="la">
+                                    <img src="./images/v5.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 48</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v6.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 116</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v7.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 70</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v8.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 48</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="vr1a vr1c">
+                        <ul>
+                            <li class="vrli" style="margin-left:0;">
+                                <p class="la">
+                                    <img src="./images/v9.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 80</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v10.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 80</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v11.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 90</span>
+                                </p>
+                            </li>
+                            <li class="vrli">
+                                <p class="la">
+                                    <img src="./images/v12.jpg" alt="">
+                                </p>
+                                <p class="lb">
+                                    <span>￥ 90</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="vrdian">
+                    <div class="vrdian1 yd" style="margin-left:45%">
+
+                    </div>
+                </div>
+                <div class="vrk">
+                    <p class="p1 pb">
+                        <i class="iconfont icon-left"></i>
+                    </p>
+                    <p class="p2 pc">
+                        <i class="iconfont icon-jiantou"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="keke">
+                <div class="keke1"></div>
+                <div class="keke2"></div>
+            </div>
+            <div class="zhibo">
+                <h3>正 在 实 况 直 播 的 游 戏</h3>
+                <div class="zhibo1">
+                    <p class="bop1" style="margin-left:0;">
+                        <a href="">
+                            <img src="./images/bo1.png" alt="">
+                        </a>
+                    </p>
+                    <p class="bop1">
+                        <a href="">
+                            <img src="./images/bo2.png" alt="">
+                        </a>
+                    </p>
+                    <p class="bop1">
+                        <a href="">
+                            <img src="./images/bo3.png" alt="">
+                        </a>
+                    </p>
+                </div>
+                <div class="zhibo2">
+                    <p class="bop1" style="margin-left:0;">
+                        <a href="">
+                            <img src="./images/bo4.png" alt="">
+                        </a>
+                    </p>
+                    <p class="bop1">
+                        <a href="">
+                            <img src="./images/bo5.png" alt="">
+                        </a>
+                    </p>
+                    <p class="bop1">
+                        <a href="">
+                            <img src="./images/bo6.png" alt="">
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d1" style="display:none;">
+        <ul class="ua">
+            <li>
+                <a class="tutu" href="">
+                    <img src="./images/a1.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <ul class="ub">
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Muse Dash</h3>
+            <ul class="ub1" style="margin-top:10px;">
+                <a href="">
+                    <li style="margin-left:0;"><img src="./images/a2.jpg" alt=""></li>
+                    <li><img src="./images/a3.jpg" alt=""></li>
+                    <li style="margin-left:0;"><img src="./images/a4.jpg" alt=""></li>
+                    <li><img src="./images/a5.jpg" alt=""></li>
+                </a>
+            </ul>
+            <li class="lla">现已推出</li>
+            <li class="llb">热销产品</li>
+            <ul class="ub2">
+                <li class="lc" id="lc"></li>
+                <li id="lb"></li>
+                <li class="la" id="la">￥&nbsp;14</li>
+                <li class="lb" id="baobao">
+                    <span class="spsa"></span>
+                    <span class="spsb"></span>
+                    <span class="spsp"></span>
+                    <span class="spsp"></span>
+                    <span class="spsp"></span>
+                </li>
+            </ul>
+        </ul>
+    </div>
+    <script src="./js/Steam.js"></script>
+    <script src="http://pujie1213.top:90/rcGame?callback=getJSON"></script>
+    <script>
+        var uc1 = document.getElementById("uc1");
+        var uc2 = document.getElementById("uc2");
+        uc1.onclick = function () {
+            uc2.style = "display:block";
+        }
+        window.onclick = function (e) {
+            if (e.target.id !== "uc1") {
+                uc2.style = "display:0;pointer-events:none"
+            }
+        }
+    </script>
+</body>
+
+</html>

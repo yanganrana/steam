@@ -1,0 +1,1285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /* 取消下划线 */
+    cursor: pointer;
+    /* 鼠标变手掌 */
+    color: #404040;
+}
+
+body {
+    background: url("../images/x.png");
+    background-size: cover;
+}
+
+.topba {
+    width: 100%;
+    height: 110px;
+    background: #171a21;
+}
+
+.top {
+    width: 940px;
+    height: 104px;
+    background: #171a21;
+    margin: 0 auto;
+}
+
+.top>div {
+    float: left;
+}
+
+.top .top1 {
+    float: left;
+    padding-top: 30px;
+    width: 176px;
+    height: 44px;
+}
+
+.top .top2 {
+    width: 168px;
+    height: 68px;
+    color: #b8b6b4;
+    font-size: 14px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.top .top2>div {
+    width: 42px;
+    height: 68px;
+    float: left;
+    line-height: 110px;
+}
+
+.top .top2>div p:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.top .top2 .one {
+    width: 76px;
+    height: 183px;
+    background: #171a21;
+    position: absolute;
+    line-height: 40px;
+    top: 68px;
+    display: none;
+    z-index: 90;
+}
+
+.top .top2 .top2a:hover .one {
+    display: block;
+    transition: all 0.4s;
+}
+
+.top .top2 .one a {
+    display: block;
+    width: 76px;
+    height: 28px;
+    color: #b8b6b4;
+    font-size: 13px;
+    text-indent: 10px;
+}
+
+.top .top2 .one a:hover {
+    color: white;
+}
+
+.top .top2 .two {
+    width: 88px;
+    height: 155px;
+    background: #171a21;
+    position: absolute;
+    line-height: 40px;
+    top: 68px;
+    display: none;
+    z-index: 90;
+}
+
+.top .top2 .top2b:hover .two {
+    display: block;
+    transition: all 0.8s;
+}
+
+.top .top2 .two a {
+    display: block;
+    width: 76px;
+    height: 28px;
+    color: #b8b6b4;
+    font-size: 13px;
+    text-indent: 10px;
+}
+
+.top .top2 .two a:hover {
+    color: white;
+}
+
+.top .top3 {
+    width: 215px;
+    height: 25px;
+    float: right;
+    margin-top: 5px;
+}
+
+.top .top3 ul {
+    float: left;
+    color: white;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.top .top3 .ua {
+    width: 108px;
+    height: 25px;
+    background: #5c7e10;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.top .top3 .ua li {
+    float: left;
+    margin-left: 1px;
+    line-height: 30px;
+    text-indent: 8px;
+    color: #e5e4dc;
+    cursor: pointer;
+}
+
+.top .top3 .ub {
+    color: #b8b6b4;
+    margin-top: 5px;
+}
+
+.top .top3 .ub .ub1 {
+    cursor: pointer;
+}
+
+.top .top3 .ub .ub1:hover {
+    color: white;
+}
+
+.top .top3 .uc {
+    color: #b8b6b4;
+    margin-top: 5px;
+    position: relative;
+}
+
+.top .top3 .uc .uc1:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.top .top3 .uc .uc2 {
+    width: 310px;
+    height: 780px;
+    background: #171a21;
+    position: absolute;
+    z-index: 20;
+    left: -265px;
+    top: 25px;
+    display: none;
+}
+
+.top .top3 .uc .uc2 a {
+    display: block;
+    padding: 5px 12px;
+    color: #b8b6b4;
+    text-transform: none;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    cursor: pointer;
+}
+
+.top .top3 .uc .uc2 a:hover {
+    color: white;
+}
+
+.top .top3 .ud {
+    color: #b8b6b4;
+    margin-top: 5px;
+}
+
+.first {
+    width: 1200px;
+    height: 500px;
+    ;
+    margin: 0 auto;
+    margin-left: 245px;
+    margin-top: 32px;
+}
+
+.first .zuo {
+    float: left;
+    width: 210px;
+    height: 925px;
+}
+
+
+/* .first .zuo  .p1{
+    width: 210px;
+    height: 116px;
+} */
+
+.first .zuo .pp1 {
+    margin-left: -3px;
+}
+
+.first .zuo .pp1 img {
+    width: 210px;
+    height: 116px;
+}
+
+.first .zuo .zuo1 .zuop1 {
+    font-size: 11px;
+    margin: 7px 0;
+    color: #c6d4df;
+}
+
+.first .zuo .zuo1 .zuop2 {
+    color: #66c0f4;
+    font-size: 13px;
+}
+
+.first .zuo .zuo2 .p1 {
+    font-size: 11px;
+    margin: 15px 0;
+    color: #c6d4df;
+}
+
+.first .zuo .zuo2 li {
+    width: 210px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.first .zuo .zuo2 li>span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #66c0f4;
+    line-height: 15px;
+}
+
+.first .zuo .zuo2 li>.s2 {
+    margin-left: 10px;
+}
+
+.first .zuo .zuo2 .p2 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: 0px 0px;
+}
+
+.first .zuo .zuo2 .p3 .s1 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -16px 0px;
+}
+
+.first .zuo .zuo2 .p4 .s1 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -32px 0px;
+}
+
+.first .zuo .zuo3 {}
+
+.first .zuo .zuo3 .p1 {
+    font-size: 11px;
+    margin: 15px 0;
+    color: #c6d4df;
+}
+
+.first .zuo .zuo3 li {
+    width: 210px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.first .zuo .zuo3 li>span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #66c0f4;
+    line-height: 15px;
+}
+
+.first .zuo .zuo3 li>.s2 {
+    margin-left: 10px;
+}
+
+.first .zuo .zuo3 .p2 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -80px 0px;
+}
+
+.first .zuo .zuo3 .p3 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -96px 0px;
+}
+
+.first .zuo .zuo3 .p4 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -112px 0px;
+}
+
+.first .zuo .zuo3 .p5 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -128px 0px;
+}
+
+.first .zuo .zuo3 .p6 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -144px 0px;
+}
+
+.first .zuo .zuo3 .p7 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -160px 0px;
+}
+
+.first .zuo .zuo3 .p8 .s1 {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/p2.png");
+    background-position: -176px 0px;
+}
+
+.first .zuo .zuo4 .p1 {
+    font-size: 11px;
+    margin: 15px 0;
+    color: #c6d4df;
+}
+
+.first .zuo .zuo4 li {
+    width: 210px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.first .zuo .zuo4 li>span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #66c0f4;
+    line-height: 15px;
+}
+
+.first .zuo .zuo5 .p1 {
+    font-size: 11px;
+    margin: 15px 0;
+    color: #c6d4df;
+}
+
+.first .zuo .zuo5 li {
+    width: 210px;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.first .zuo .zuo5 li>span {
+    display: block;
+    float: left;
+    font-size: 13px;
+    color: #66c0f4;
+    line-height: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.first .zhong {
+    float: left;
+    width: 940px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.first .zhong .pb {
+    width: 45px;
+    height: 108px;
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    z-index: 99;
+    top: 200px;
+    left: -50px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.first .zhong .pc {
+    width: 45px;
+    height: 108px;
+    background: url("../images/m1.jpg");
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    z-index: 9999;
+    top: 200px;
+    right: -50px;
+    cursor: pointer;
+}
+
+.first .zhong .pb i {
+    font-size: 55px;
+    color: white;
+    margin-left: -5px;
+}
+
+.first .zhong .pc i {
+    font-size: 55px;
+    color: white;
+    margin-left: -5px;
+}
+
+.first .zhong .dh {
+    width: 100%;
+    height: 35px;
+    background: rgba( 62, 126, 167, 0.8);
+}
+
+.first .zhong .dh>p {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    line-height: 14px;
+    font-size: 14px;
+    color: white;
+    border-right: 1px solid #000000;
+    cursor: pointer;
+    color: #c6d4df;
+}
+
+.first .zhong .dh>p:hover {
+    background: rgb(222, 230, 236);
+    color: #000;
+    border-right: 1px solid rgb(222, 230, 236);
+}
+
+.first .zhong .pa {
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.first .zhong .lunbo {
+    width: 100%;
+    height: 353px;
+    position: relative;
+}
+
+.first .zhong .lunbo>div {
+    float: left;
+    width: 940px;
+    height: 353px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.first .zhong .lunbo>div .ua {
+    width: 616px;
+    height: 353px;
+    float: left;
+}
+
+.first .zhong .lunbo .ub {
+    width: 324px;
+    height: 353px;
+    float: left;
+    background: #000;
+}
+
+.first .zhong .lunbo .ub h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+.first .zhong .lunbo2 {
+    width: 940px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.first .zhong .lunbo2 .six {
+    width: 100%;
+    height: 40px;
+}
+
+.first .zhong .lunbo2 h2 {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    float: left;
+}
+
+.first .zhong .lunbo2 h2>span {
+    width: 82px;
+    height: 24px;
+    display: block;
+    border: 1px solid rgb(211, 211, 211);
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first .zhong .lunbo2 h2>span:hover {
+    border: 1px solid white;
+}
+
+.first .zhong .lunbo2 .tuba {
+    width: 940px;
+    height: 430px;
+    position: relative;
+}
+
+.first .zhong .lunbo2 .tuba .tuba1 {
+    width: 940px;
+    height: 390px;
+    position: absolute;
+}
+
+.lunbo2 .tuba .tuba1>ul {
+    float: left;
+}
+
+.lunbo2 .tuba .tuba1 .baul1 {
+    width: 306px;
+    height: 390px;
+}
+
+.lunbo2 .tuba .tuba1 .baul1 img {
+    width: 306px;
+    height: 390px;
+}
+
+.lunbo2 .tuba .tuba1 .baul2 {
+    width: 306px;
+    height: 390px;
+    margin-left: 10px;
+}
+
+.lunbo2 .tuba .tuba1 .baul2 img {
+    width: 306px;
+    height: 390px;
+}
+
+.lunbo2 .tuba .tuba1 .baul3 {
+    width: 306px;
+    height: 390px;
+    margin-left: 12px;
+}
+
+.lunbo2 .tuba .tuba1 .baul3 .bau3a1 {
+    width: 306px;
+    height: 190px;
+}
+
+.tuba .tuba1 .baul3 .bau3a1 img {
+    width: 306px;
+    height: 190px;
+}
+
+.lunbo2 .tuba .tuba1 .baul3 .bau3a2 {
+    width: 306px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+.tuba .tuba1 .baul3 .bau3a2 img {
+    width: 306px;
+    height: 190px;
+}
+
+.first .zhong .lunbo2 .tuba .tuba2 {
+    width: 940px;
+    height: 390px;
+    position: absolute;
+    display: none;
+}
+
+.lunbo2 .tuba .tuba2 ul {
+    float: left;
+}
+
+.lunbo2 .tuba .tuba2 .baul3 {
+    width: 306px;
+    height: 390px;
+    margin-left: 12px;
+}
+
+.lunbo2 .tuba .tuba2 .baul3 .bau3a1 {
+    width: 306px;
+    height: 190px;
+}
+
+.tuba .tuba2 .baul3 .bau3a1 img {
+    width: 306px;
+    height: 190px;
+}
+
+.lunbo2 .tuba .tuba2 .baul3 .bau3a2 {
+    width: 306px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+.tuba .tuba2 .baul3 .bau3a2 img {
+    width: 306px;
+    height: 190px;
+}
+
+.first .zhong .ua img {
+    width: 100%;
+    height: 353px;
+}
+
+.first .zhong .ub .ub1 {
+    width: 314px;
+    height: 170px;
+}
+
+.first .zhong .ub .ub1 li {
+    float: left;
+    width: 152px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.first .zhong .ub2 .lc {
+    background: #4c6b22;
+    color: #a4d007;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.first .zhong .ub img {
+    width: 152px;
+    height: 70px;
+}
+
+.first .zhong .ub .lla {
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+.first .zhong .ub .llb {
+    width: 62px;
+    height: 19px;
+    border: 1px solid #000;
+    font-size: 11px;
+    color: white;
+    background: rgba( 255, 255, 255, 0.2);
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.first .zhong .ub .ub2 {
+    width: 100%;
+    height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.first .zhong .ub .ub2 li {
+    float: left;
+}
+
+.first .zhong .ub .ub2 .la {
+    margin-left: 5px;
+    font-size: 12px;
+    color: aqua;
+}
+
+.first .zhong .ub .ub2 .lb {
+    float: right;
+    margin-right: 30px;
+}
+
+.first .zhong .ub .ub2 .ld {
+    float: right;
+    margin-right: 5px;
+}
+
+.lb>span {
+    float: right;
+}
+
+.lb>.spsa {
+    display: inline-block;
+    background: url(../images/3.png);
+    background-size: cover;
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.lb>.spsb {
+    display: inline-block;
+    background: url(../images/4.png);
+    background-size: cover;
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.first .zhong .yd {
+    width: 250px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.first .zhong .yd p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+#lb {
+    text-align: content;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.lunbo2 .tuba .tuba3 {
+    width: 940px;
+    height: 40px;
+    position: absolute;
+    top: 390px;
+    overflow: hidden;
+}
+
+.lunbo2 .tuba .tuba3 div {
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.lunbo2 .tuba .tuba3 div p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+}
+
+.lunbo2 .tuba .tuba3 div p:hover {
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+
+.lunbo2 .tuba .tuba4 {
+    position: absolute;
+}
+
+.lunbo2 .tuba .tuba4 .tup1 {
+    width: 45px;
+    height: 108px;
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    z-index: 99;
+    top: -230px;
+    left: -55px;
+    cursor: pointer;
+}
+
+.lunbo2 .tuba .tuba4 .tup1 i {
+    font-size: 55px;
+    color: white;
+    margin-left: -5px;
+}
+
+.lunbo2 .tuba .tuba4 .tup2 {
+    width: 45px;
+    height: 108px;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    z-index: 9999;
+    top: -230px;
+    left: 950px;
+    cursor: pointer
+}
+
+.lunbo2 .tuba .tuba4 .tup2 i {
+    font-size: 55px;
+    color: white;
+    margin-left: -5px;
+}
+
+.zhong .liulan {
+    width: 940px;
+    height: 80px;
+}
+
+.liulan .lan {
+    width: 940px;
+    height: 58px;
+    margin-top: 10px;
+}
+
+.lan p {
+    width: 226px;
+    height: 58px;
+    float: left;
+    border: 1px solid rgb(82, 82, 82, 0.2);
+    border-radius: 8px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 20px;
+    background: url("../images/x1.jpg");
+    background-position-y: -105px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+}
+
+.lan p a {
+    color: #66c0f4;
+}
+
+.lan p:hover {
+    background-position-y: -142px;
+}
+
+.lan p:hover a {
+    color: #fff;
+}
+
+.liulan h3 {
+    font-size: 14px;
+    color: white;
+}
+
+.jianshang {
+    width: 940px;
+    height: 540px;
+    margin-top: 100px;
+}
+
+.jianshang h3 {
+    color: white;
+    font-size: 15px;
+}
+
+.jianshang .jianbao {
+    width: 940px;
+    height: 464px;
+    background: rgb(87, 96, 108);
+}
+
+.jianshang .lunbo3 {
+    width: 940px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.jianshang .lunbo3 .jian1 {
+    width: 940px;
+    height: 464px;
+    position: absolute;
+}
+
+.jianshang .lunbo3 .jian1 img {
+    width: 940px;
+    height: 464px;
+}
+
+.jianshang .lunbo3 .jian2 {
+    width: 940px;
+    height: 464px;
+    display: none;
+    position: absolute;
+}
+
+.jianshang .lunbo3 .jian2 img {
+    width: 940px;
+    height: 464px;
+}
+
+.jianshang .lunbo3 .jian3 {
+    width: 940px;
+    height: 464px;
+    display: none;
+    position: absolute;
+}
+
+.jianshang .lunbo3 .jian3 img {
+    width: 940px;
+    height: 464px;
+}
+
+.jianshang .lunbo3 .jian4 {
+    width: 940px;
+    height: 405px;
+    display: none;
+    position: absolute;
+}
+
+.jianshang .lunbo3 .jian4 img {
+    width: 940px;
+    height: 405px;
+}
+
+.jianshang .lunbo3 .jian5 {
+    width: 940px;
+    height: 374px;
+    display: none;
+    position: absolute;
+}
+
+.jianshang .lunbo3 .jian5 img {
+    width: 940px;
+    height: 374px;
+}
+
+.jianshang .jiandian {
+    width: 940px;
+    height: 40px;
+}
+
+.jiandian .jianjian1 {
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.jianshang.jiandian div {
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.jianshang .jiandian div p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.jianshang .jiandian div p:hover {
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+
+.jianshang .jianjian2 {
+    position: relative;
+}
+
+.jianshang .jianjian2 .p1 {
+    width: 45px;
+    height: 108px;
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    z-index: 99;
+    top: -280px;
+    left: -55px;
+    cursor: pointer;
+}
+
+.jianshang .jianjian2 .p2 {
+    width: 45px;
+    height: 108px;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    z-index: 9999;
+    top: -280px;
+    left: 950px;
+    cursor: pointer;
+}
+
+.jianjian1 p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+}
+
+.jianjian1 p:hover {
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+.vr{
+    width: 940px;
+    height: 210px;  
+    margin-top:20px;
+    position: relative;
+}
+.vr h3 {
+    font-size: 14px;
+    color: white;
+}   
+.vr .davr{
+    width: 940px;
+    height: 134px;
+    margin-top: 20px;
+}
+.vr .davr ul{
+    width: 940px;
+    height: 134px;
+    position: absolute;
+}
+.vr .davr .vr1a{
+    display: block;
+}
+.vr .davr .vr1b{
+    display: none;
+}
+.vr .davr .vr1c{
+    display: none;
+}
+.vr .vrli{
+    width: 229px;
+    height: 134px;
+    float: left;
+    margin-left:8px;
+}
+.vr .vrli .la{
+    width: 229px;
+    height: 106px;
+}
+.vr .vrli img{
+    width: 229px;
+    height: 106px;
+}
+.vr .vrli .lb{
+    width: 229px;
+    height: 27px;
+    background: rgb(54, 95, 125);
+    margin-top:0;
+}
+.vr .vrli .lb span{
+    display: block;
+    float: right;
+    font-size: 11px;
+    width: 45px;
+    height: 16px;
+    background: rgb(45, 80, 104);
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(171, 218, 244);  
+
+}
+.vr .vrdian {
+    width:940px;
+    height: 40px;
+    margin: 0 auto;
+    position: absolute;
+    top: 165px;
+}
+
+.vr .vrdian  div {
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.vr .vrdian  div p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.vr .vrdian  div p:hover {
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+.vr .vrdian1{
+    margin: 0 auto;
+}
+.vr .vrdian1 p {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    float: left;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    margin-left: 3px;
+}
+
+.vr .vrdian1 p:hover {
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+.vr .vrk {
+    position: relative;
+}
+
+.vr .vrk .p1 {
+    width: 45px;
+    height: 108px;
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    z-index: 99;
+    top: -340px;
+    left: -55px;
+    cursor: pointer;
+}
+
+.vr .vrk .p2 {
+    width: 45px;
+    height: 108px;
+    background-size: cover;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    border: 1px solid #000;
+    line-height: 108px;
+    position: absolute;
+    z-index: 9999;
+    top: -340px;
+    left: 950px;
+    cursor: pointer;
+}
+.keke{
+    width: 926px;
+    height: 815px;
+    background: #a4d007;
+}
+.keke .keke1{
+
+}
+.zhibo{
+    width: 935px;
+    height: 430px;
+    margin-top: 20px;
+}
+.zhibo h3{
+    font-size: 14px;
+    color: white;
+}
+.zhibo .zhibo1{
+    width: 935px;
+    height: 207px;
+    margin-top:10px;
+}
+.zhibo .zhibo2{
+    width: 935px;
+    height: 207px;
+    margin-top:8px;
+}
+.zhibo .zhibo1 p{
+    width: 306px;
+    height: 207px;
+    margin-left: 5px;
+    float: left;
+    position: relative;
+}
+.zhibo .zhibo1 p img{
+    width: 306px;
+    height: 207px;
+}
+
+.zhibo .zhibo2 p{
+    width: 306px;
+    height: 207px;
+    margin-left: 5px;
+    float: left;
+    position: relative;
+}
+.zhibo .zhibo2 p img{
+    width: 306px;
+    height: 207px;
+}
+.zhibo .zhibo1 p .bodian{
+    width: 52px;
+    height: 19px;
+    background: #000;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+}
