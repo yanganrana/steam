@@ -1216,7 +1216,7 @@ body {
     width: 45px;
     height: 108px;
     background-size: cover;
-    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%, rgba( 0, 0, 0, 0) 95%);
+    background: linear-gradient( to right, #95bbd4 5%,#859bac 95%);
     border: 1px solid #000;
     line-height: 108px;
     position: absolute;
@@ -1227,11 +1227,154 @@ body {
 }
 .keke{
     width: 926px;
-    height: 815px;
-    background: #a4d007;
+    height:1300px;
+    position: relative;
+    z-index: 99996;
 }
 .keke .keke1{
-
+    width: 618px;
+    height: 1200px;
+    float: left;
+}
+.good{
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    display: none;
+    background: rgb(21,41,56);
+}
+.good:hover{
+    width: 630px;
+    background: rgb(148, 186, 211);
+}
+.good .da1{
+    width: 184px;
+    height: 70px;
+    float: left;
+}
+.good .da1 img{
+    width: 184px;
+    height: 70px;
+}
+.good .da2{
+    width:420px;
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+}
+.good .da2 .daa{
+    width: 284px;
+    height: 70px;
+    float: left;
+}
+.good .da2 .daa .daa1 .p1{
+    color: #c7d5e0;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    height: 25px;
+}
+.good:hover .da2 .daa .daa1 .p1{
+    color: #000;
+}
+.good .da2 .daa .p2{
+    margin-top:4px;
+    height: 20px;
+    margin-top:0px;
+}
+.good .da2 .daa .p2 span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+}
+.good .da2 .daa .p2 .s1{
+    opacity: 0;
+    z-index: 9;
+    background: url("../images/4.png");
+}
+.good .da2 .daa .p2 .s2{
+    opacity: 0;
+    z-index: 9;
+    background: url("../images/bj2.png");
+}
+.good .da2 .daa .p2 .s3{
+    opacity: 0;
+    z-index: 9;
+    background: url("../images/bj3.png");
+}
+.good .da2 .daa .p2 .s4{
+    width: 50px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 20px;
+    opacity: 0;
+    color: white;
+    z-index: 9;
+}
+.good .da2 .daa .p2 .s5{
+    width: 50px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 20px;
+    opacity: 0;
+    color:white;
+    z-index: 9;
+}
+.spans{
+    font-size: 11px;
+    display: inline-block;
+    margin-right: 5px;
+    color: #384959;
+}
+.good .da2 .daa .p3{
+    width: 284px;
+    height: 20px;
+    margin-top:0px;
+    overflow: hidden;
+}
+.keke .keke2{
+    width: 292px;
+    float: left;
+    margin-left: 10px;
+    background: linear-gradient( to right, #95bbd4 5%,#859bac 95%);
+    margin-top:5px;
+    padding: 20px 0;
+}
+.good .da2 .dbb{
+    width: 136px;
+    height: 70px;
+    float: left;
+}
+.good .da2 .dbb .dbb1{
+    width: 65px;
+    height: 70px;
+    float: left;
+}
+.good .da2 .dbb .dbb1 p{
+    width: 50px;
+    height: 18px;
+    background: #4c6b22;
+    margin: 0 auto;
+    margin-top:26px;
+    font-size: 12px;
+    color: #c3f801;
+    text-align: center;
+}
+.good .da2 .dbb .dbb2{
+    width:55px;
+    height: 70px;
+    float: right;
+}
+.good .da2 .dbb .dbb2 p{
+    font-size: 11px;
+    color: #acdbf5;
+}
+.good .da2 .dbb .dbb2 .pbb1{
+    margin-top: 20px;
+    text-decoration: line-through;
+    color: #9099a1;
 }
 .zhibo{
     width: 935px;
@@ -1282,4 +1425,138 @@ body {
     position: absolute;
     color: white;
     font-size: 12px;
+}
+
+.keke .keke2 .kem1{
+    width:90%;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.keke .keke2 .kem1 h2{
+    font-size: 21px;
+    color: #263645;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.keke .keke2 .kem1 .p1{
+    width: 100%;
+    height: 45px;
+    background-color: rgba( 38, 54, 69, 0.6);
+    margin-top: 3px;
+}
+.keke .keke2 .kem1 .p2{
+    width: 100%;
+    height:25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.keke .keke2 .kem1 .p2 a{
+    display: block;
+    background-color: rgba( 38, 54, 69, 0.6);
+    margin-top: 3px;
+    border-radius: 2px;
+    float: left;
+    margin-left:3px;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px;
+    text-align: center;
+    line-height: 13px;
+}
+.keke .keke2 .kem1 .p1 span{
+    display:inline-block; 
+    text-indent:10px;
+}
+.keke .keke2 .kem1 .p1 .s1{
+    width: 100%;
+    color: #c6d4df;
+    font-size:13px;
+}
+.keke .keke2 .kem1 .p1 .s2{
+    font-size: 11px;
+    color: rgb(0, 139, 253);
+}
+.keke .keke2 .kem1 .p1 .s3{
+    font-size: 11px;
+    text-indent: 0;
+    color: white;
+}
+.keke .keke2 .kem2{
+    width:262.8px;
+    margin: 0 auto;
+}
+.keke .keke2 .kem2 div{
+    width: 100%;
+    height: 155px;
+    margin-top: 5px;
+}
+.keke .suoyin{
+    width: 618px;
+    height: 36px;
+    background: rgba( 0, 0, 0, 0.2 );
+    z-index: 99999;
+}
+.keke .suoyin .suo1{
+    width: 200px;
+    height: 36px;
+    float: left;
+    font-size: 11px;
+    line-height: 36px;
+    text-indent: 10px;
+    color: #67c1f5;
+}
+.keke .suoyin .suo2{
+    width:250px;
+    height: 36px;
+    float: right;
+    margin-left: 150px;
+}
+.keke .suoyin .suo2 p{
+    float: left;
+    line-height: 36px;
+    color: #3b6e8c;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.keke .suoyin .suo2 .p1{
+    width: 40px;
+    height:20px;
+    background: rgb(38, 64, 84);
+    text-align: center;
+    margin-top: 10px;   
+    line-height: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #67c1f5;
+}
+.keke .suoyin .suo2 .p1:hover{
+    background: #67c1f5;
+    color: white;
+}
+.keke .suoyin .suo2 .p3:hover{
+    background: #67c1f5;
+    color: white;
+}
+.keke .suoyin .suo2 .p2 span{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3px;
+    line-height: 17px;
+}
+.keke .suoyin .suo2 .p2 span:hover{
+    color: #67c1f5;
+}
+.keke .suoyin .suo2 .p3{
+    width: 40px;
+    height: 20px;
+    background: rgb(38, 64, 84);
+    text-align: center;
+    margin-top: 10px;   
+    line-height: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #67c1f5;
 }
